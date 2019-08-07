@@ -1,7 +1,7 @@
 # PythonProgrammingTask1
 First assignment of Python programming module for the Computational Mathematical Finance UoE
 
-## Task 2 - K-Nearest-neighbours
+### Task 2 - K-Nearest-neighbours
 ### Task 2a - First implementation
 For this task you will need to implement a [K-nearest-neighbours](https://en.wikipedia.org/wiki/K-nearest_neighbors_algorithm) algorithm for classification from scratch (**important - do not use a version of this algorithm from another module e.g SKLearn - you need to write the functions as directed yourself**). The K-nearest-neighbours algorithm is a classic machine learning algorithm used for [classification problems](https://en.wikipedia.org/wiki/Statistical_classification). Classifying a data item from a given dataset means deciding which of a number of classes the item belongs to. This is done using a *training set*, containing a number of data items with known class.
 
@@ -23,7 +23,6 @@ To do this write 3 functions:
 - Lastly use your functions to obtain a list containing the calculated class for each of the element in the `main_data` list you have constructed.
 
 ### Task 2b - Changing the distance measure
-
 Next write two different replacements for the **dist_vect(item,train_data)** function. The function you have written above calculates the distance between data items using Euclidean distance as:
 $$d(x,y) = \left(\sum_{i=1}^n (x_i-y_i)^2\right)^{1/2}$$
 
