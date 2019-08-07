@@ -23,6 +23,7 @@ To do this write 3 functions:
 - Lastly use your functions to obtain a list containing the calculated class for each of the element in the `main_data` list you have constructed.
 
 ### Task 2b - Changing the distance measure
+
 Next write two different replacements for the **dist_vect(item,train_data)** function. The function you have written above calculates the distance between data items using Euclidean distance as:
 $$d(x,y) = \left(\sum_{i=1}^n (x_i-y_i)^2\right)^{1/2}$$
 
